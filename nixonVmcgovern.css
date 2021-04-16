@@ -1,0 +1,24 @@
+html{
+    background-color: black;
+    /* cursor:url("../nixon-voting/cursorTest.png"), pointer; */
+}
+body{
+    background: url("../nixon-voting/americanEagle.jpeg");
+    background-size: cover;
+    position: relative;
+}
+div.row > h1{
+    color: black;
+    background: white;
+    text-shadow: 2px 2px 3px blue;
+    border: double 8px red;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+img#Nixon_Ballot, img#McGovern_Ballot{
+    background: transparent;
+}
+img#Voting_Toggle{
+    background: transparent;
+}

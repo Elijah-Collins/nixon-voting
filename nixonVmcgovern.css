@@ -1,6 +1,5 @@
 html{
     background-color: black;
-    /* cursor:url("../nixon-voting/cursorTest.png"), pointer; */
 }
 body{
     background: url("../nixon-voting/americanEagle.jpeg");
@@ -16,9 +15,24 @@ div.row > h1{
     margin-left: 25%;
     margin-right: 25%;
 }
+div.col-1-8{
+    width: 11.25%;
+    height: auto;
+}
+div.col-7-8{
+    width: 88.75%;
+    height: auto;
+}
 img#Nixon_Ballot, img#McGovern_Ballot{
     background: transparent;
 }
 img#Voting_Toggle{
     background: transparent;
+}
+
+/* function toggle */
+
+.toggledCursor{
+    cursor: url("cursorTest.png"), default;
+    cursor: url("cursorTest.png"), pointer;
 }

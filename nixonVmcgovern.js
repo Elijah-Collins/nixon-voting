@@ -1,9 +1,9 @@
 function votingToggle(){
     var body = document.getElementById("body");
     if(body.classList.contains("toggledCursor")){
-        body.classList.remove("toggledCursor");
+        this.body.classList.remove("toggledCursor");
     }else{
-        body.classList.add("toggledCursor");
+        this.body.classList.add("toggledCursor");
     }
 }
 function submitVoteNixon(){
@@ -31,4 +31,8 @@ function submitVoteMcGovern(){
     }else{
         alert("Please pick up a ballot and continue.");
     }
+}
+
+function welcomingPopup(){
+    var ;
 }
